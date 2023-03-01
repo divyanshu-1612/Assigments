@@ -52,7 +52,7 @@ function zip_files(path_from, path_to) {
 
   archive.pipe(output);
 
-  for (const image of fs.readdirSync(path_from)) {
+  for (const image of fs.readdirSync(path_from)){ 
     archive.append(fs.createReadStream(path_from + "/" + image), {
       name: image + ".jpg"
     });
@@ -68,6 +68,8 @@ Promise.all(
     return download_image(url, "images_new/" + (cnt++).toString() + ".jpg");
   })
 ).then(value => zip_files("images_new", "zipped_images.zip"));
+
+
 
 // // const request = require('request');
 // // const fs = require('fs');
