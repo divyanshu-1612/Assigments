@@ -1,0 +1,16 @@
+{
+    "name": "API_JS_TEST_1",
+    "description": "FOR ASSIGNMENT PURPOSE",
+    "_connectionId": "6400442b689a484bbf8e6f5b",
+    "apiIdentifier": "e3dc046f15",
+    "asynchronous": true,
+    "oneToMany": false,
+    "sandbox": false,
+    "http": {
+        "relativeURI": "/get",
+        "method": "GET",
+        "formType": "http"
+    },
+    "rawData": "EMPTY RAW DATA",
+    "adaptorType": "HTTPExport"
+}

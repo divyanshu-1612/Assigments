@@ -1,0 +1,22 @@
+{
+    "name": "API_JS_TEST_1",
+    "disabled": true,
+    "skipRetries": false,
+    "pageProcessors": [
+        {
+            "responseMapping": {
+                "fields": [],
+                "lists": []
+            },
+            "type": "import",
+            "_importId": "640050658b885c41ff439b46"
+        }
+    ],
+    "pageGenerators": [
+        {
+            "_exportId": "64004fbd9d92153c2108defd",
+            "skipRetries": false
+        }
+    ],
+    "autoResolveMatchingTraceKeys": true
+}

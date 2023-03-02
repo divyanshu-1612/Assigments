@@ -1,0 +1,24 @@
+{
+    "type": "http",
+    "name": "API_JS_TEST_1",
+    "sandbox": false,
+    "http": {
+        "formType": "http",
+        "mediaType": "json",
+        "baseURI": "https://798b2e72-fcf3-419c-a1b3-8318893052b0.mock.pstmn.io",
+        "unencrypted": {
+            "field": "value"
+        },
+        "encrypted": "******",
+        "auth": {
+            "type": "basic",
+            "basic": {
+                "username": "_dg_",
+                "password": "_dg_"
+            }
+        }
+    },
+    "microServices": {
+        "disableNetSuiteWebServices": false
+    }
+}

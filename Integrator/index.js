@@ -290,7 +290,7 @@ const getImport = (token, id) => {
 const getAllImports = (token, id) => {
     let options = {
         method: "GET",
-        url: `https://api.integrator.io/v1/integrations/${id}/imports`,
+        url: `https://api.integrator.io/v1/imports`,
         headers: {
             Authorization: `Bearer ${token}`
         }
