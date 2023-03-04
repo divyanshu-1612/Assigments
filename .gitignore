@@ -1,3 +1,7 @@
 *.log
 **/.DS_Store
 **/node_modules
+NodeJS/Learning/
+package-lock.json
+package.json
+unit-testing/
